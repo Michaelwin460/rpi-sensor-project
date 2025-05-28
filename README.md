@@ -6,4 +6,7 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake
 
 cmake --build .
 
-./sensor_app
+./sensor_app 
+or for the tests:
+ctest --output-on-failure
+
